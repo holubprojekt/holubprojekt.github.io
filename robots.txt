@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://holubprojekt.github.io/sitemap.xml
