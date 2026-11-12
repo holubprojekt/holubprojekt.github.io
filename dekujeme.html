@@ -3,27 +3,34 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
-<meta name="description" content="Holub projekt – projekční kancelář. Pasporty staveb, změny dispozic, garáže, rodinné domy a přístavby v AutoCADu. Praha, Středočeský a Plzeňský kraj. Nacenění zdarma, neplátce DPH.">
 <meta name="robots" content="noindex">
-<link rel="canonical" href="https://holubprojekt.cz/">
-
-<meta property="og:title" content="Holub projekt – projekční kancelář">
-<meta property="og:description" content="Pasporty staveb, změny dispozic, garáže, rodinné domy a přístavby. Praha, Střední Čechy, Plzeňsko.">
-<meta property="og:type" content="website">
-<meta property="og:locale" content="cs_CZ">
-<meta property="og:url" content="https://holubprojekt.cz/">
-<meta property="og:image" content="https://holubprojekt.cz/img/og.png">
-<meta name="twitter:card" content="summary_large_image">
-<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'><rect x='1.5' y='1.5' width='27' height='27' fill='%2313203A' stroke='%2313203A' stroke-width='3'/><path d='M8 22V8h4v5h6V8h4v14h-4v-5h-6v5z' fill='%23D2362C'/></svg>">
-<script type="application/ld+json">{"@context":"https://schema.org","@type":"ProfessionalService","name":"Holub projekt","alternateName":"Holubprojekt","description":"Holub projekt – projekční kancelář. Pasporty staveb, změny dispozic, garáže, rodinné domy a přístavby v AutoCADu. Praha, Středočeský a Plzeňský kraj. Nacenění zdarma, neplátce DPH.","url":"https://holubprojekt.cz/","email":"holub.projekt@seznam.cz","telephone":"+420604228866","address":{"@type":"PostalAddress","streetAddress":"Prusice 50","postalCode":"281 63","addressCountry":"CZ"},"areaServed":["Praha","Středočeský kraj","Plzeňský kraj"],"priceRange":"na dotaz","founder":{"@type":"Person","name":"Jakub Holub"}}</script>
-</head>
-<body style="margin:0">
+<meta name="theme-color" content="#0e1319">
 <title>Děkujeme · Holub projekt</title>
-<style>body{font-family:"IBM Plex Sans","Segoe UI",system-ui,sans-serif;background:#EEF2F6;color:#13203A;display:grid;place-items:center;min-height:100vh;padding:24px}
-.box{background:#fff;border:1.5px solid #13203A;padding:40px;max-width:520px;text-align:center}
-h1{font-size:28px;margin:0 0 12px}p{color:#566377;line-height:1.6;margin:0 0 20px}
-a{display:inline-block;background:#D2362C;color:#fff;text-decoration:none;padding:12px 20px;font-weight:600;box-shadow:4px 4px 0 #13203A}</style>
-<div class="box"><h1 id="h">Děkujeme za poptávku</h1><p id="p">Ozveme se obvykle ještě týž den s cenou a termínem.</p><a href="/">Zpět na web</a></div>
-<script>if(location.search.indexOf('ref=1')>-1){document.getElementById('h').textContent='Děkujeme za referenci';document.getElementById('p').textContent='Po odsouhlasení ji zveřejníme na webu.';}</script>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@1&family=Jost:wght@300;400;500&family=JetBrains+Mono:wght@400;500&display=swap">
+<style>
+:root{color-scheme:dark;--bg:#0e1319;--fg:#e9e4d8;--fg2:rgba(233,228,216,.74);--line:rgba(233,228,216,.16);--brass:#c9a66b}
+*{box-sizing:border-box}
+body{margin:0;min-height:100vh;display:grid;place-items:center;padding:24px;background:var(--bg);color:var(--fg);font-family:"Jost","Avenir Next","Century Gothic",system-ui,sans-serif;
+  background-image:linear-gradient(var(--line) 1px,transparent 1px),linear-gradient(90deg,var(--line) 1px,transparent 1px);background-size:48px 48px;background-position:center}
+.box{background:var(--bg);border:1px solid var(--line);padding:clamp(28px,6vw,56px);max-width:560px;width:100%}
+.lab{font-family:"JetBrains Mono",ui-monospace,Menlo,monospace;font-size:11px;letter-spacing:.12em;text-transform:uppercase;color:var(--brass);margin:0 0 18px}
+h1{font-weight:300;font-size:clamp(34px,7vw,52px);line-height:1.02;letter-spacing:-.02em;margin:0 0 16px;text-wrap:balance}
+h1 em{font-family:"Instrument Serif",Georgia,serif;font-style:italic;color:var(--brass);font-weight:400}
+p{color:var(--fg2);font-size:17px;line-height:1.55;margin:0 0 28px}
+a{display:inline-block;background:var(--brass);color:var(--bg);text-decoration:none;padding:13px 22px;font-weight:500;border:1px solid var(--brass)}
+a:hover{background:#e3c58e;border-color:#e3c58e}
+a:focus-visible{outline:2px solid var(--fg);outline-offset:3px}
+</style>
+</head>
+<body>
+<div class="box">
+  <p class="lab">Holub projekt</p>
+  <h1 id="h">Děkujeme <em>za poptávku</em></h1>
+  <p id="p">Ozveme se obvykle ještě týž den s cenou a termínem.</p>
+  <a href="/">Zpět na web</a>
+</div>
+<script>if(location.search.indexOf('ref=1')>-1){document.getElementById('h').innerHTML='Děkujeme <em>za referenci</em>';document.getElementById('p').textContent='Po odsouhlasení ji zveřejníme na webu.';}</script>
 </body>
 </html>
